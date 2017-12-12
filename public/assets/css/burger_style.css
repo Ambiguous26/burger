@@ -5,7 +5,7 @@ html {
 
 body {
 	background-color: #DDDDDD;
-	background-image: url(../images/legoFLDSMDFR.jpg);
+	background-image: url(../images/burger.png);
 	background-position: top;
 	background-size: cover;
 	background-attachment: fixed;
@@ -18,7 +18,7 @@ h1 {
 	margin-bottom: 20px;
 }
 
-li {
+li {	
 	margin-bottom: 10px;
 	font-weight: bold;
 }

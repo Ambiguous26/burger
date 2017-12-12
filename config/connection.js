@@ -1,16 +1,7 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-var connection;
-
-// Need to look into making sure I am connected on Heroku using this addon.
-
-if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL)
-
-}
-else {
-  connection = mysql.createConnection({
+var connection = mysql.createConnection({
   port: 3306,
   host: "localhost",
   user: "root",
